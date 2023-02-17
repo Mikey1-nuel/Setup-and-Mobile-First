@@ -20,12 +20,13 @@
   margin: 30px 20px;
 }
 
-.header .container h4 {
+.header .container a {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
   color: #fff;
+  text-decoration: none;
 }
 
 .header .container .hamburger {
