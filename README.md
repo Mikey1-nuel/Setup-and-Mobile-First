@@ -114,7 +114,7 @@ LinkedIn: https://www.linkedin.com/in/emmanuel-nwoye-5915141b8/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-##🤝 Contributing
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -122,13 +122,13 @@ Feel free to check the issues page.
 
 (back to top)
 
-##⭐️ Show your support
+## ⭐️ Show your support
 
 If you like this project, please comment on the project. If you found an issue or would like to submit an improvement to this project, you can submit a pull request with a fix by referencing the issue that you created.
 
 (back to top)
 
-##🙏 Acknowledgments
+## 🙏 Acknowledgments
 
 I would like to thank Microverse Community for inspiring this project and codebase. It is a pleasure to have joined the program and I hope to learn a lot more as I progress.
 
