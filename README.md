@@ -97,9 +97,9 @@ With git bash,
 
 👤 Mikey1-nuel
 
-GitHub: @githubhandle
-Twitter: @twitterhandle
-LinkedIn: https://www.linkedin.com/in/emmanuel-nwoye-5915141b8/
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: https://www.linkedin.com/in/emmanuel-nwoye-5915141b8/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
