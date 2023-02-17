@@ -10,17 +10,17 @@
   background: #3c3a39;
 }
 
-.menu {
+.container {
   align-items: center;
 }
 
-.header .menu {
+.header .container {
   display: flex;
   justify-content: space-between;
   margin: 30px 20px;
 }
 
-.header .menu h4 {
+.header .container h4 {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -28,7 +28,7 @@
   color: #fff;
 }
 
-.header .menu i {
+.header .container .hamburger {
   font-size: 18px;
   color: #fff;
 }
@@ -70,12 +70,20 @@
   margin-top: 10px;
 }
 
-.contact {
+.contact .social {
   display: flex;
   justify-content: space-around;
   padding-left: 5px;
   padding-right: 100px;
   margin-top: 20px;
+}
+
+.contact .social li {
+  list-style: none;
+}
+
+.contact .social li a i {
+  color: #fff;
 }
 
 .bio .text-area .contact {
@@ -129,7 +137,19 @@
     display: flex;
     justify-content: space-between;
     padding-left: 20px;
-    padding-right: 300px;
+    padding-right: 100px;
     margin-top: 20px;
+  }
+
+  .contact .social li {
+    flex: 1;
+    justify-content: space-around;
+    padding-left: 5px;
+    padding-right: 30px;
+    margin-top: 20px;
+  }
+
+  .social li a i {
+    align-items: center;
   }
 }
