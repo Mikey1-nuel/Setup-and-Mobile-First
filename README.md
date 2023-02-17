@@ -65,16 +65,14 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-Prerequisites
-In order to run this project you need:
-
 Generate a ssh key to enable you clone the repository to your local machine.
 Download and install a code editor of your choice like Visual studio code, Atom, Sublime etc.
 Install node and a git command machine.
 Web browser.
 
 
-Setup
+### Setup
+
 Clone this repository to your desired folder:
 
 - Copy the ssh code to the project repository.
@@ -82,7 +80,8 @@ Clone this repository to your desired folder:
 - Open the folder in your code editor to enable you edit the file as you desire.
 
 
-Usage
+### Usage
+
 To run the project, execute the following command to download the repository in your local machine:
 
 With git bash,
@@ -115,7 +114,7 @@ LinkedIn: https://www.linkedin.com/in/emmanuel-nwoye-5915141b8/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-🤝 Contributing
+##🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -123,13 +122,13 @@ Feel free to check the issues page.
 
 (back to top)
 
-⭐️ Show your support
+##⭐️ Show your support
 
 If you like this project, please comment on the project. If you found an issue or would like to submit an improvement to this project, you can submit a pull request with a fix by referencing the issue that you created.
 
 (back to top)
 
-🙏 Acknowledgments
+##🙏 Acknowledgments
 
 I would like to thank Microverse Community for inspiring this project and codebase. It is a pleasure to have joined the program and I hope to learn a lot more as I progress.
 
