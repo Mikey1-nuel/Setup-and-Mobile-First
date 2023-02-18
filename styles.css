@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  border: 4px solid #3c3a39;
+  height: 80px;
+  align-items: center;
+  background: #3c3a39;
+}
+
+.container {
+  align-items: center;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 20px;
+}
+
+.header .container a {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header .container .hamburger {
+  font-size: 18px;
+  color: #fff;
+}
+
+.bio {
+  background: #1c1a19;
+  justify-content: center;
+  padding-top: 130px;
+  height: 120vh;
+  align-items: center;
+}
+
+.bio .text-area {
+  margin: 0 20px;
+}
+
+.bio .text-area h1 {
+  font-family: "Crete Round", sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  color: #ff6b00;
+}
+
+.bio .text-area h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #fff5e1;
+}
+
+.bio .text-area p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.contact .social {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 5px;
+  padding-right: 100px;
+  margin-top: 20px;
+}
+
+.contact .social li {
+  list-style: none;
+}
+
+.contact .social li a i {
+  color: #fff;
+}
+
+.bio .text-area .contact {
+  font-size: 32px;
+  color: #dbd8d7;
+  align-items: center;
+}
+
+.bio .text-area .contact i img {
+  width: 20px;
+}
+
+.bio .text-area .contact i h3 {
+  font-size: 32px;
+}
+
+.bio .png {
+  width: 33.33%;
+  float: right;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .bio .text-area h1 {
+    font-family: "Crete Round", sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 74px;
+    color: #ff6b00;
+  }
+
+  .bio .text-area h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #fff5e1;
+    margin-top: 10px;
+  }
+
+  .bio .text-area p {
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 15px;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 100px;
+    margin-top: 20px;
+  }
+
+  .contact .social li {
+    flex: 1;
+    justify-content: space-around;
+    padding-left: 5px;
+    padding-right: 30px;
+    margin-top: 20px;
+  }
+
+  .social li a i {
+    align-items: center;
+  }
+}
