@@ -99,6 +99,13 @@
   list-style: none;
 }
 
+.about-me .container2 img {
+  width: 60%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 .about-me .tools h3 img {
   margin-right: 10px;
   color: #ff6b00;
@@ -118,13 +125,6 @@
   font-size: 32px;
   color: #dbd8d7;
   align-items: center;
-}
-
-.about-me .container2 img {
-  width: 60%;
-  position: absolute;
-  bottom: 0;
-  right: 0;
 }
 
 .icons .contact i img {
