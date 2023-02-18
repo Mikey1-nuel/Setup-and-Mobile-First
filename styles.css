@@ -99,7 +99,7 @@
   list-style: none;
 }
 
-.about-me .tools h3 i {
+.about-me .tools h3 img {
   margin-right: 10px;
   color: #ff6b00;
 }
@@ -330,8 +330,8 @@
   display: inline-block;
   align-items: center;
   box-sizing: border-box;
-  background-color: #fff;
-  color: #091e42;
+  background: rgba(255, 255, 255, 0.24);
+  color: #fff;
   border: 1px solid #8993a4;
   margin-right: 12px;
   padding: 10px 12px;
@@ -505,6 +505,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 131.54px;
 }
 
 .about-me .tools ul {
@@ -650,14 +651,14 @@
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 38px;
+    font-size: 32px;
     line-height: 44px;
     color: #091e42;
     margin-bottom: 12px;
   }
 
   .works .container .project2 h2 {
-    font-size: 38px;
+    font-size: 32px;
     display: flex;
     align-items: center;
     color: #fff;
@@ -675,7 +676,7 @@
   }
 
   .works .container .project2 p {
-    font-size: 22px;
+    font-size: 16px;
     line-height: 24px;
     color: #fff;
     margin-left: 10px;
@@ -717,14 +718,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 144px;
+    padding-bottom: 131.54px;
   }
 
   .about-me .tools h3 {
     font-family: 'inter', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 42px;
+    font-size: 32px;
     line-height: 44px;
     color: #fff;
     border-top: 2px solid #fff;
@@ -735,7 +736,7 @@
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 22px;
     line-height: 43px;
     color: #fff;
     list-style-type: none;
