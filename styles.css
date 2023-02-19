@@ -177,6 +177,7 @@
 .works {
   background: #e5e5e5;
   padding-bottom: 120px;
+  display: grid;
 }
 
 .works .container {
@@ -188,7 +189,7 @@
 }
 
 .works .container .project {
-  display: flex;
+  display: grid;
   flex-direction: column;
   justify-content: center;
   text-align: start;
@@ -229,6 +230,7 @@
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
+  display: flex;
 }
 
 .works .lang ul li {
@@ -315,7 +317,7 @@
 }
 
 .works .btn {
-  display: flex;
+  display: grid;
   text-decoration: none;
   margin-right: 200px;
   padding: 12px;
@@ -399,7 +401,7 @@
 }
 
 .works .project2 .btn2 {
-  display: flex;
+  display: grid;
   margin-right: 200px;
   padding: 12px 113.5px;
   width: 100%;
