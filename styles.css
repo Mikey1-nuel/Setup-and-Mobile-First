@@ -46,7 +46,7 @@
   margin: 0 20px;
 }
 
-.container h1 {
+.container h2 {
   height: 83px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
@@ -193,6 +193,19 @@
   flex-direction: column;
   justify-content: center;
   text-align: start;
+}
+
+.about-me .container2 h2 {
+  width: 327px;
+  height: 79px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-top: -250px;
 }
 
 .works .container .project h2 {
@@ -450,19 +463,6 @@
   justify-content: center;
   position: relative;
   height: 90vh;
-}
-
-.about-me .container2 h1 {
-  width: 327px;
-  height: 79px;
-  font-family: 'Crete Round', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 72px;
-  line-height: 88px;
-  letter-spacing: 0.37px;
-  color: #ff6b00;
-  margin-top: -250px;
 }
 
 .about-me .container2 .btn {
