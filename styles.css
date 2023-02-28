@@ -519,6 +519,23 @@
   margin-top: 30px;
 }
 
+.contact-me h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  text-align: center;
+  margin-top: 120px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.contact-me .last .btn {
+  margin-left: 0;
+}
+
 @media (min-width: 768px) {
   .container h1 {
     height: 83px;
