@@ -206,10 +206,10 @@
 	<section class="contact-me">
 		<h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
 		<div class="last">
-		<form action="/login" method="post">
-			<input name="user_name" id="name" type="name" placeholder="Full name" class="input1" required>
+		<form action="https://formspree.io/f/{form_id}" method="post">
+			<input name="user_name" id="name" type="name" placeholder="Full name" class="input1" required maxlength = "30">
 			<input name="user_email" id="mail" type="email" placeholder="Email address" required>
-			<textarea id="msg" name="user_message" placeholder="Enter text here" required></textarea>
+			<textarea id="msg" name="user_message" placeholder="Enter text here" required maxlength = "500"></textarea>
 			<div class="btn">
 				<button type="submit">Get in touch</button>
 			  </div>
