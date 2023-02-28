@@ -584,6 +584,24 @@ form input .input1 {
   line-height: 24px;
 }
 
+.btn button {
+  padding: 12px;
+  border: none;
+  outline: none;
+  background: #ff6b00;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  margin-top: 24px;
+  margin-bottom: 124px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+}
+
 @media (min-width: 768px) {
   .container h1 {
     height: 83px;
