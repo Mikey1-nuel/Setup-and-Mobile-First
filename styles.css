@@ -647,6 +647,11 @@ hr {
   width: 375px;
 }
 
+.contact-exe {
+  text-align: center;
+  width: 375px;
+}
+
 @media (min-width: 768px) {
   .container h1 {
     height: 83px;
