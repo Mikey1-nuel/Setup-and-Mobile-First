@@ -619,6 +619,11 @@ form {
   margin-right: 24px;
 }
 
+form button {
+  display: flex;
+  align-items: center;
+}
+
 form input {
   border: none;
   border-bottom: 1px solid #979493;
@@ -666,6 +671,7 @@ form input .input1 {
   gap: 10px;
   width: 131px;
   height: 48px;
+  margin-left: 95px;
 }
 
 .btn button:enabled {
