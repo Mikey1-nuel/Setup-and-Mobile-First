@@ -519,6 +519,11 @@
   margin-top: 30px;
 }
 
+.btn-container {
+  padding: 0;
+  margin: 0;
+}
+
 @media (min-width: 768px) {
   .container h1 {
     height: 83px;
