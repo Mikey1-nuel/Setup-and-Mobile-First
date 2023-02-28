@@ -8,7 +8,6 @@
   height: 80px;
   align-items: center;
   background: #3c3a39;
-  width: 375px;
 }
 
 .container {
@@ -146,7 +145,7 @@
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
-  margin-top: 24px;
+  margin-top: 0;
 }
 
 .bio .text-area .intro p {
@@ -204,7 +203,7 @@
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-  border-top: 1px solid #fff;
+  border-top: 0;
   padding-top: 136.73px;
   width: 310px;
   text-align: center;
@@ -263,7 +262,9 @@
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-  margin-top: -250px;
+  margin-top: -165px;
+  padding-top: 120px;
+  padding-bottom: 24px;
 }
 
 .works .container .project2 h2 {
@@ -492,7 +493,7 @@
   background-size: cover;
   height: 456px;
   width: 95%;
-  position: relative;
+  position: inherit;
   margin-bottom: 24px;
 }
 
@@ -507,7 +508,7 @@
   line-height: 24px;
   border: none;
   outline: none;
-  position: absolute;
+  position: inherit;
   bottom: 0;
   cursor: pointer;
   transition: 0.3s ease;
@@ -524,7 +525,7 @@
   line-height: 24px;
   border: none;
   outline: none;
-  position: absolute;
+  position: inherit;
   bottom: 0;
   cursor: pointer;
   transition: 0.3s ease;
@@ -587,7 +588,7 @@
   background-size: 200px;
   background-position-x: right;
   background-position-y: bottom;
-  height: 90vh;
+  height: 100vh;
 }
 
 .about-me .tools {
@@ -617,11 +618,6 @@ form {
   margin-top: 73px;
   margin-left: 24px;
   margin-right: 24px;
-}
-
-form button {
-  display: flex;
-  align-items: center;
 }
 
 form input {
@@ -699,6 +695,13 @@ hr {
   height: 14px #dfe1e6;
   margin-bottom: 24.98px;
   width: 375px;
+}
+
+.about-hr {
+  height: 14px #dfe1e6;
+  margin-top: 22.69px;
+  width: 320px;
+  margin-left: 24px;
 }
 
 .contact-exe {
