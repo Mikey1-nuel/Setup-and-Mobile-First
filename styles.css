@@ -623,6 +623,24 @@ form input .input1 {
   color: #5b5957;
 }
 
+textarea {
+  width: 330px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  border: none;
+  background: #fbf8f7;
+  outline: none;
+  padding: 12px;
+  margin-bottom: 20px;
+  padding-bottom: 90px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+}
+
 @media (min-width: 768px) {
   .container h1 {
     height: 83px;
