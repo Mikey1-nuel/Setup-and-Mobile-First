@@ -569,6 +569,21 @@ form input {
   color: #979493;
 }
 
+form input .input1 {
+  border: none;
+  border-bottom: 1px solid #979493;
+  padding-right: 40px;
+  outline: none;
+  margin-top: 73px;
+  margin-bottom: 20px;
+  color: #979493;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
 @media (min-width: 768px) {
   .container h1 {
     height: 83px;
