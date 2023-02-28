@@ -641,6 +641,12 @@ textarea {
   color: #3c3a39;
 }
 
+hr {
+  height: 14px #dfe1e6;
+  margin-bottom: 24.98px;
+  width: 375px;
+}
+
 @media (min-width: 768px) {
   .container h1 {
     height: 83px;
