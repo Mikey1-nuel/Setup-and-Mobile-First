@@ -553,6 +553,22 @@ form {
   margin-right: 24px;
 }
 
+form input {
+  border: none;
+  border-bottom: 1px solid #979493;
+  padding-right: 40px;
+  padding-left: 16px;
+  outline: none;
+  margin-bottom: 39px;
+  padding-bottom: 14px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+}
+
 @media (min-width: 768px) {
   .container h1 {
     height: 83px;
