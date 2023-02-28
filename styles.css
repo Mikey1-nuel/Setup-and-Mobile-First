@@ -602,6 +602,27 @@ form input .input1 {
   height: 48px;
 }
 
+.btn button:enabled {
+  color: #fff;
+  background-color: #f55800;
+}
+
+.btn button:hover {
+  background: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+}
+
+.btn button:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+.btn button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
+
 @media (min-width: 768px) {
   .container h1 {
     height: 83px;
