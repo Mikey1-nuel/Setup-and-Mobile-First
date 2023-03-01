@@ -798,7 +798,7 @@ textarea {
   }
 
   .bio {
-    width: 1350px;
+    width: 1440px;
     background-image: url(images/Illustration2.png);
     background-size: 40%;
     background-position-y: center;
@@ -878,7 +878,7 @@ textarea {
 
   .about-me {
     background: #1c1a19;
-    width: 1350px;
+    width: 1440px;
   }
 
   .social li a i {
@@ -946,6 +946,10 @@ textarea {
     justify-content: flex-start;
     width: 500px;
     margin-bottom: 24px;
+  }
+
+  .proj-cont {
+    width: 1350px;
   }
 
   .works .proj-cont {
@@ -1178,14 +1182,14 @@ textarea {
   }
 
   .works {
-    width: 1350px;
+    width: 1440px;
     background: #e5e5e5;
     padding-bottom: 120px;
     display: grid;
   }
 
   .contact-me {
-    width: 1350px;
+    width: 1440px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -1233,12 +1237,12 @@ textarea {
   hr {
     height: 14px #dfe1e6;
     margin-bottom: 24.98px;
-    width: 1350px;
+    width: 1440px;
   }
 
   .contact-exe {
     text-align: center;
-    width: 1350px;
+    width: 1440px;
   }
 
   textarea {
