@@ -656,7 +656,21 @@ textarea {
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    color: #fff;
+    color: #FFFFFF;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 
   .contact-exe .social {
