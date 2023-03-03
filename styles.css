@@ -352,6 +352,7 @@ header .container .nav-bar {
 
 .container3 .sub-container2 {
   padding: 84px 16px 12px 16px;
+  margin-top: 20px;
 }
 
 .container3 .sub-container2 h2 {
@@ -531,6 +532,21 @@ textarea {
   width: 17.99px;
 }
 
+.main-container .container3:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+  transition: 0.2s ease;
+  transform: translateY(-3%);
+  transform: scale(1.03);
+}
+
+.contact-exe .social li:hover {
+  transform: scale(1.2);
+}
+
+.bio .container1 .social li:hover {
+  transform: scale(1.2);
+}
+
 @media (min-width: 768px) {
   header {
     background: #3e3c3c;
@@ -596,8 +612,6 @@ textarea {
     background: #1c1a19;
     background-image: url(images/Illustration2.png);
     background-repeat: no-repeat;
-
-    /* background-size: 100px; */
     background-position-x: right;
     background-position-y: center;
     display: flex;
@@ -633,6 +647,8 @@ textarea {
     align-items: center;
     color: #fff5e1;
     margin-bottom: 12px;
+    animation-duration: 3s;
+    animation-name: slidein;
   }
 
   .text2 p {
@@ -646,6 +662,8 @@ textarea {
     color: #f4f5f7;
     padding-right: 24px;
     margin-bottom: 24px;
+    animation-duration: 3s;
+    animation-name: slidein;
   }
 
   .bio .container1 p {
@@ -657,6 +675,8 @@ textarea {
     font-size: 20px;
     line-height: 24px;
     color: #fff;
+    animation-duration: 3s;
+    animation-name: slidein;
   }
 
   .contact-exe .social {
@@ -728,6 +748,8 @@ textarea {
     color: #ff6b00;
     padding-right: 24px;
     margin-bottom: 24px;
+    animation-duration: 3s;
+    animation-name: slidein;
   }
 
   .works .text1 h2 {
@@ -788,6 +810,8 @@ textarea {
     align-items: center;
     color: #091e42;
     margin-top: 24px;
+    animation-duration: 3s;
+    animation-name: slidein;
   }
 
   .container3 button {
@@ -816,6 +840,8 @@ textarea {
     line-height: 24px;
     color: #091e42;
     margin-top: 24px;
+    animation-duration: 3s;
+    animation-name: slidein;
   }
 
   .main-container {
@@ -981,6 +1007,11 @@ textarea {
     display: none;
   }
 
+  .main-container .container3 {
+    box-shadow: 22px 22px 30px rgb(0 0 0 / 2%);
+    cursor: pointer;
+  }
+
   .works .main-container .container3 {
     padding-top: 50px;
   }
@@ -1005,5 +1036,32 @@ textarea {
     background-size: cover;
     width: 327px;
     height: 386px;
+  }
+
+  .main-container .container3:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+    transition: 0.2s ease;
+    transform: translateY(-3%);
+    transform: scale(1.03);
+  }
+
+  .contact-exe .social li:hover {
+    transform: scale(1.2);
+  }
+
+  .bio .container1 .social li:hover {
+    transform: scale(1.2);
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 }
