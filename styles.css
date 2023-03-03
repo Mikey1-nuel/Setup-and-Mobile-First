@@ -1034,4 +1034,12 @@ textarea {
     transform: translateY(-3%);
     transform: scale(1.04);
   }
+
+  .bio .container1 .social li:hover {
+    transform: scale(1.2);
+  }
+
+  .contact-exe .social li:hover {
+    transform: scale(1.2);
+  }
 }
