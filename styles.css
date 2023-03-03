@@ -1022,4 +1022,16 @@ textarea {
     width: 327px;
     height: 386px;
   }
+
+  .main-container .container3 {
+    box-shadow: 20px 20px 30px rgb(0 0 0 / 2%);
+    cursor: pointer;
+  }
+
+  .main-container .container3:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+    transition: 0.2s ease;
+    transform: translateY(-3%);
+    transform: scale(1.04);
+  }
 }
