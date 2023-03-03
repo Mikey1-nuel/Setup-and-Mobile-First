@@ -648,6 +648,8 @@ textarea {
     color: #f4f5f7;
     padding-right: 24px;
     margin-bottom: 24px;
+    animation-duration: 3s;
+    animation-name: slidein;
   }
 
   .bio .container1 p {
@@ -661,18 +663,6 @@ textarea {
     color: #FFFFFF;
     animation-duration: 3s;
     animation-name: slidein;
-  }
-
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
   }
 
   .contact-exe .social {
@@ -744,6 +734,8 @@ textarea {
     color: #ff6b00;
     padding-right: 24px;
     margin-bottom: 24px;
+    animation-duration: 3s;
+    animation-name: slidein;
   }
 
   .works .text1 h2 {
@@ -804,6 +796,8 @@ textarea {
     align-items: center;
     color: #091e42;
     margin-top: 24px;
+    animation-duration: 3s;
+    animation-name: slidein;
   }
 
   .container3 button {
@@ -832,6 +826,8 @@ textarea {
     line-height: 24px;
     color: #091e42;
     margin-top: 24px;
+    animation-duration: 3s;
+    animation-name: slidein;
   }
 
   .main-container {
@@ -1032,7 +1028,7 @@ textarea {
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
     transition: 0.2s ease;
     transform: translateY(-3%);
-    transform: scale(1.04);
+    transform: scale(1.03);
   }
 
   .bio .container1 .social li:hover {
@@ -1041,5 +1037,17 @@ textarea {
 
   .contact-exe .social li:hover {
     transform: scale(1.2);
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 }
