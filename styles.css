@@ -633,6 +633,8 @@ textarea {
     align-items: center;
     color: #fff5e1;
     margin-bottom: 12px;
+    animation-duration: 3s;
+    animation-name: slidein;
   }
 
   .text2 p {
