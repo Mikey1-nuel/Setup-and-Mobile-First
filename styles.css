@@ -16,20 +16,20 @@ body {
   padding: 12px;
   border: none;
   outline: none;
-  background: #ff6b00;
+  background: #EB5600;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #fff;
+  color: #F7F7F7;
   margin-top: 12px;
   cursor: pointer;
 }
 
 .btn1:enabled {
   color: #fff;
-  background-color: #f55800;
+  background-color: #EB5600;
 }
 
 .btn1:hover {
@@ -325,7 +325,7 @@ header .container .nav-bar {
   outline: none;
   width: 124px;
   height: 48px;
-  background: #ff6b00;
+  background: #EB5600;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -334,13 +334,13 @@ header .container .nav-bar {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #fff;
+  color: #F7F7F7;
   margin-top: 12px;
   margin-bottom: 24px;
 }
 
 .container3 {
-  background-image: url(images/image\ 2.png);
+  background-image: url(images/image2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -392,13 +392,13 @@ header .container .nav-bar {
   width: 327px;
   height: 48px;
   bottom: 0;
-  background: #ff6b00;
+  background: #EB5600;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #fff;
+  color: #F7F7F7;
   border: none;
   outline: none;
 }
@@ -848,13 +848,13 @@ textarea {
     width: 327px;
     height: 48px;
     bottom: 0;
-    background: #ff6b00;
+    background: #EB5600;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
-    color: #fff;
+    color: #f7f7f7;
     border: none;
     outline: none;
     margin-top: 191.5px;
