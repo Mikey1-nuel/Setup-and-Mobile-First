@@ -175,7 +175,6 @@ header .container .nav-bar {
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
-  line-height: 20px;
   color: #091e42;
 }
 
@@ -190,7 +189,6 @@ header .container .nav-bar {
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
-  line-height: 20px;
   color: #fff;
 }
 
@@ -201,7 +199,6 @@ header .container .nav-bar {
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
-  line-height: 43px;
   display: flex;
   align-items: center;
   justify-content: center;
