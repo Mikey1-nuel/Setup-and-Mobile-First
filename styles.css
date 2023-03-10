@@ -50,7 +50,7 @@ body {
 
 header {
   background: #3c3a39;
-  width: 375px;
+  width: 100%;
 }
 
 header .container {
@@ -84,7 +84,7 @@ header .container .nav-bar {
 }
 
 .bio {
-  width: 375px;
+  width: 100%;
   background: #1c1a19;
   background-image: url(images/Illustration.png);
   background-repeat: no-repeat;
@@ -100,8 +100,8 @@ header .container .nav-bar {
 }
 
 .bio .container1 h1 {
-  width: 327px;
-  height: 124px;
+  min-width: 327px;
+  min-height: 124px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -113,8 +113,8 @@ header .container .nav-bar {
 }
 
 .text2 h2 {
-  width: 352px;
-  height: 79px;
+  min-width: 352px;
+  min-height: 79px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -126,8 +126,8 @@ header .container .nav-bar {
 }
 
 .contact-me h2 {
-  width: 327px;
-  height: 216px;
+  min-width: 327px;
+  min-height: 216px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -138,8 +138,8 @@ header .container .nav-bar {
 }
 
 .bio .container1 h2 {
-  width: 327px;
-  height: 27px;
+  min-width: 327px;
+  min-height: 27px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -152,8 +152,8 @@ header .container .nav-bar {
 }
 
 .text2 p {
-  width: 352px;
-  height: 148px;
+  min-width: 352px;
+  min-height: 148px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -164,8 +164,8 @@ header .container .nav-bar {
 }
 
 .bio .container1 p {
-  width: 327px;
-  height: 123px;
+  min-width: 327px;
+  min-height: 123px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -252,13 +252,13 @@ header .container .nav-bar {
   align-items: flex-start;
   padding: 120px 24px;
   gap: 12px;
-  width: 375px;
+  width: 100%;
   background: #fff;
 }
 
 .works .text1 h2 {
-  width: 327px;
-  height: 83px;
+  min-width: 327px;
+  min-height: 83px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -288,8 +288,8 @@ header .container .nav-bar {
 }
 
 .container2 .sub-container h2 {
-  width: 327px;
-  height: 36px;
+  min-width: 327px;
+  min-height: 36px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -302,8 +302,8 @@ header .container .nav-bar {
 }
 
 .container2 .sub-container p {
-  width: 327px;
-  height: 147px;
+  min-width: 327px;
+  min-height: 147px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -358,8 +358,8 @@ header .container .nav-bar {
 }
 
 .container3 .sub-container2 h2 {
-  width: 295px;
-  height: 81px;
+  min-width: 295px;
+  min-height: 81px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -370,8 +370,8 @@ header .container .nav-bar {
 }
 
 .container3 .sub-container2 p {
-  width: 295px;
-  height: 87px;
+  min-width: 295px;
+  min-height: 87px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -404,7 +404,7 @@ header .container .nav-bar {
 }
 
 .about-me {
-  width: 375px;
+  width: 100%;
   height: 2020px;
   display: flex;
   flex-direction: column;
@@ -468,11 +468,23 @@ header .container .nav-bar {
 .contact-me {
   background: #fff;
   padding: 120px 24px 0 24px;
-  width: 375px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 .contact-me .last {
   margin-top: 73px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 90%;
 }
 
 form input {
@@ -489,17 +501,21 @@ form input {
   font-size: 15px;
   line-height: 24px;
   color: #979493;
-  width: 327px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .contact-exe .hr3 {
   height: 14px #dfe1e6;
   margin-bottom: 24.98px;
-  width: 375px;
+  width: 100%;
 }
 
 textarea {
-  width: 330px;
+  width: 100%;
   box-sizing: border-box;
   border: 1px solid #999;
   border: none;
@@ -527,7 +543,7 @@ textarea {
 }
 
 .contact-exe {
-  width: 375px;
+  width: 100%;
   background: #fff;
 }
 
@@ -956,8 +972,8 @@ textarea {
     padding: 120px 24px 0 24px;
     width: 100%;
     display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
+    /* align-items: flex-start;
+    justify-content: space-around; */
     gap: 80px;
   }
 
@@ -966,7 +982,7 @@ textarea {
   }
 
   .text3 {
-    width: 327px;
+    max-width: 327px;
   }
 
   form {
@@ -975,6 +991,7 @@ textarea {
     align-items: flex-start;
     justify-content: flex-start;
     margin-left: 24px;
+    /* width: 100%; */
   }
 
   form input {
@@ -991,7 +1008,7 @@ textarea {
     font-size: 15px;
     line-height: 24px;
     color: #979493;
-    width: 584px;
+    width: 548px;
   }
 
   form input:hover {
@@ -1005,7 +1022,7 @@ textarea {
   }
 
   textarea {
-    width: 584px;
+    width: 60%;
     box-sizing: border-box;
     border: 1px solid #999;
     border: none;
