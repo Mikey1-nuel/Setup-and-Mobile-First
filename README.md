@@ -58,6 +58,7 @@
 
 
 - [Live Demo Link](https://mikey1-nuel.github.io/Setup-and-Mobile-First/)
+- [Loom video link](https://www.loom.com/share/ca70314e1ee2492b93c60d180b9d8b25)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
