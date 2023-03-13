@@ -27,17 +27,22 @@
 	<header class="header">
 		<div class="container">
 			<div class="logo">
-				<a href="">John Doe</a>
+				<a href="" class="active">John Doe</a>
 			</div>
-			<ul class="nav-bar">
-				<li><a href="">Portfolio</a></li>
-				<li><a href="">About</a></li>
-				<li><a href="">Contact</a></li>
-				<a href="#"><i class="fa fa-envelope-o"></i></a>
-			</ul>
-			<nav class="hamburger">
-				<i class="fa fa-bars"></i>
+			<nav id="nav">
+				<ul class="nav-bar">
+					<li><a href="#portfolio" id="nav-item">Portfolio</a></li>
+					<hr>
+					<li><a href="#about" id="nav-item">About</a></li>
+					<hr>
+					<li><a href="#contact" id="nav-item">Contact</a></li>
+					<hr>
+					<a href="#"><i class="fa fa-envelope-o envelope"></i></a>
+				</ul>
 			</nav>
+			<div class="hamburger">
+				<div class="bars"></div>
+			</div>
 		</div>
 	</header>
 
@@ -62,7 +67,7 @@
 		</div>
 	</section>
 
-	<section class="works">
+	<section class="works" id="portfolio">
 		<div class="text1">
 			<h2>My Recent Works <img src="images/line.png" alt=""></h2>
 		</div>
@@ -198,7 +203,7 @@
 		</div>
 	</section>
 
-	<section class="about-me">
+	<section class="about-me" id="about">
 		<div class="text2">
 			<h2>About me</h2>
 			<p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of
@@ -216,12 +221,12 @@
 						<h2 class="head-list">Language</h2>
 					</li>
 				</ul>
-					<ul class="content-list">
-						<li>JavaScript</li>
-						<li>Ruby</li>
-						<li>Html</li>
-						<li>Css</li>
-					</ul>
+				<ul class="content-list">
+					<li>JavaScript</li>
+					<li>Ruby</li>
+					<li>Html</li>
+					<li>Css</li>
+				</ul>
 			</div>
 
 			<div class="sub-head">
@@ -231,13 +236,13 @@
 						<h2 class="head-list">Frameworks</h2>
 					</li>
 				</ul>
-					<ul class="content-list">
-						<li>Bootstrap</li>
-						<li>Ruby on Rails</li>
-						<li>RSPec</li>
-						<li>CapyBara</li>
-						<li>Selenium</li>
-					</ul>
+				<ul class="content-list">
+					<li>Bootstrap</li>
+					<li>Ruby on Rails</li>
+					<li>RSPec</li>
+					<li>CapyBara</li>
+					<li>Selenium</li>
+				</ul>
 			</div>
 
 			<div class="sub-head">
@@ -247,18 +252,18 @@
 						<h2 class="head-list">Skills</h2>
 					</li>
 				</ul>
-					<ul class="content-list">
-						<li>Codekit</li>
-						<li>Github</li>
-						<li>Codepen</li>
-						<li>Gitlab</li>
-						<li>Terminal</li>
-					</ul>
+				<ul class="content-list">
+					<li>Codekit</li>
+					<li>Github</li>
+					<li>Codepen</li>
+					<li>Gitlab</li>
+					<li>Terminal</li>
+				</ul>
 			</div>
 		</div>
 	</section>
 
-	<section class="contact-me">
+	<section class="contact-me" id="contact">
 		<div class="text3">
 			<h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
 			<div class="last">
@@ -266,7 +271,7 @@
 					<label for="Name" style="display: none;"></label>
 					<input name="user_name" id="name" type="text" placeholder="Full name" class="input1" required
 						maxlength="30">
-						<label for="Email" style="display: none;"></label>
+					<label for="Email" style="display: none;"></label>
 					<input name="user_email" id="mail" type="email" placeholder="Email address" required>
 					<label for="Message" style="display: none;"></label>
 					<textarea id="msg" name="user_message" placeholder="Enter text here" required
@@ -292,6 +297,7 @@
 		</div>
 	</footer>
 
+	<script src="index.js"></script>
 </body>
 
 </html>
