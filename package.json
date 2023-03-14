@@ -1,5 +1,5 @@
 {
-  "name": "setup-and-mobile-first",
+  "name": "emmanuelportfolio.github.io",
   "version": "1.0.0",
   "description": "<a name=\"readme-top\"></a>",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mikey1-nuel/Setup-and-Mobile-First.git"
+    "url": "git+https://github.com/Mikey1-nuel/emmanuelportfolio.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mikey1-nuel/Setup-and-Mobile-First/issues"
+    "url": "https://github.com/Mikey1-nuel/emmanuelportfolio.github.io/issues"
   },
-  "homepage": "https://github.com/Mikey1-nuel/Setup-and-Mobile-First#readme",
+  "homepage": "https://github.com/Mikey1-nuel/emmanuelportfolio.github.io#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
