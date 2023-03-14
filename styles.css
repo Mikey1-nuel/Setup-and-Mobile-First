@@ -631,7 +631,7 @@ form input {
 }
 
 .contact-exe .hr3 {
-  height: 14px #dfe1e6;
+  height: 2px;
   margin-bottom: 24.98px;
   width: 100%;
 }
@@ -1228,7 +1228,7 @@ textarea {
   }
 
   .contact-exe .hr3 {
-    height: 14px #dfe1e6;
+    height: 2px;
     margin-bottom: 24.98px;
     width: 100%;
   }
