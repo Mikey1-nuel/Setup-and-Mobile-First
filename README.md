@@ -33,15 +33,9 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
+
  - HTML
  - CSS
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
 
 
 ### Key Features <a name="key-features"></a>
@@ -58,6 +52,8 @@
 
 
 - [Live Demo Link](https://mikey1-nuel.github.io/Setup-and-Mobile-First/)
+
+## 🚀 Loom Video <a name="live-demo"></a>
 - [Loom video link](https://www.loom.com/share/ca70314e1ee2492b93c60d180b9d8b25)
 
 
