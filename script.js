@@ -11,3 +11,10 @@ hamburger.addEventListener('click', () => {
   }
   nav.classList.toggle('open');
 });
+
+/* pop-up window */
+
+// eslint-disable-next-line no-unused-vars
+function togglePopup() {
+  document.getElementById('popup').classList.toggle('active');
+}
