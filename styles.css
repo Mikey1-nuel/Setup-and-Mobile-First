@@ -93,18 +93,8 @@ header .container .logo a {
   transition: all 0.5s ease;
 }
 
-.lang-list2 li {
-  display: flex;
+.contact-exe .social li {
   list-style-type: none;
-  border: none;
-  background: rgba(255, 255, 255, 0.24);
-  padding: 10px 12px;
-  margin-right: 12px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  color: #fff;
 }
 
 .lang ul li {
@@ -121,8 +111,18 @@ header .container .logo a {
   color: #091e42;
 }
 
-.contact-exe .social li {
+.lang-list2 li {
+  display: flex;
   list-style-type: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.24);
+  padding: 10px 12px;
+  margin-right: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
 }
 
 .sub-head .content-list li {
@@ -457,6 +457,17 @@ header .container .nav-bar {
   margin-bottom: 24px;
 }
 
+.container3 {
+  background-image: url(images/image2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 327px;
+  height: 386px;
+  margin-bottom: 24px;
+  padding-top: 63px;
+}
+
 .container3 .show-text {
   display: none;
 }
@@ -668,14 +679,6 @@ textarea {
 }
 
 .container3 {
-  background-image: url(images/image2.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 327px;
-  height: 386px;
-  margin-bottom: 24px;
-  padding-top: 63px;
   box-shadow: 20px 20px 30px rgb(0 0 0 / 2%);
   cursor: pointer;
 }
@@ -714,7 +717,7 @@ textarea {
 
 .popupcontainer {
   width: 80%;
-  height: 100vh;
+  height: 100%;
   position: fixed;
   background-attachment: fixed;
   top: 0;
@@ -748,6 +751,7 @@ textarea {
 
 .popupcontainer2 {
   width: 95%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   background: white;
@@ -820,7 +824,7 @@ textarea {
 }
 
 .image2 {
-  max-width: 80%;
+  max-width: 70%;
 }
 
 .description1 {
@@ -842,7 +846,7 @@ textarea {
 
 .btncontainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   gap: 7px;
 }
@@ -864,6 +868,7 @@ textarea {
   color: #fff;
   margin-top: 40px;
   padding: 0 50px;
+  margin-right: 10px;
 }
 
 .container3:hover {
@@ -941,6 +946,16 @@ textarea {
     align-items: center;
     color: rgb(9, 30, 66);
     margin-bottom: 24px;
+  }
+
+  .popupcontainer2 {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    justify-content: center;
+    padding: 12px;
   }
 }
 
@@ -1139,7 +1154,7 @@ textarea {
     width: 100%;
     align-items: center;
     justify-content: center;
-    background: orange;
+    background: #fff;
   }
 
   .text2 {
@@ -1213,7 +1228,7 @@ textarea {
     margin-bottom: 24px;
   }
 
-  .lang-list2 {
+.lang-list2 {
     display: flex;
     margin-top: 12px;
     margin-bottom: 12px;
@@ -1260,7 +1275,7 @@ textarea {
     animation-name: slidein;
   }
 
-  .btn2 .btn5 {
+ .btn2 .btn5 {
     width: 327px;
     height: 48px;
     bottom: 0;
@@ -1459,10 +1474,13 @@ textarea {
   }
 
   .container3 {
-    padding-top: 63px;
-    margin-top: 37px;
     box-shadow: 22px 22px 30px rgb(0 0 0 / 2%);
     cursor: pointer;
+  }
+
+  .container3 {
+    padding-top: 63px;
+    margin-top: 37px;
   }
 
   .works .box1 {
@@ -1598,7 +1616,8 @@ textarea {
   }
 
   .popupcontainer2 {
-    width: 96%;
+    width: 100%;
+    max-height: 80%;
     display: flex;
     flex-direction: column;
     background: #fff;
@@ -1669,17 +1688,18 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    /* gap: 25px; */
   }
 
   .image2 {
-    min-width: 40%;
+    min-width: 53%;
     margin-left: 30px;
   }
 
   .description1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
   }
 
   .paragraph2 {
@@ -1692,6 +1712,7 @@ textarea {
     text-align: start;
     color: #344563;
     padding-left: 30px;
+    margin-bottom: 150px;
   }
 
   .btncontainer {
@@ -1750,7 +1771,17 @@ textarea {
   }
 
   .image2 {
-    min-width: 60%;
+    min-width: 43%;
     margin-left: 0;
+  }
+
+  .popupcontainer2 {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    justify-content: center;
+    padding: 12px;
   }
 }
