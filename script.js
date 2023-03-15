@@ -123,7 +123,7 @@ Multi-Post Stories
 <img src="images/image1.png" class="image2" alt="">
 <div class="description1">
 <p class="paragraph2">
-A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
 </p>
 <div class="btncontainer">
 <button class="popbtn" type="button"><a href="https://mikey1-nuel.github.io/Setup-and-Mobile-First/"><img src="images/Enable.png" alt="enable"></a></button>
