@@ -93,8 +93,18 @@ header .container .logo a {
   transition: all 0.5s ease;
 }
 
-.contact-exe .social li {
+.lang-list2 li {
+  display: flex;
   list-style-type: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.24);
+  padding: 10px 12px;
+  margin-right: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
 }
 
 .lang ul li {
@@ -111,18 +121,8 @@ header .container .logo a {
   color: #091e42;
 }
 
-.lang-list2 li {
-  display: flex;
+.contact-exe .social li {
   list-style-type: none;
-  border: none;
-  background: rgba(255, 255, 255, 0.24);
-  padding: 10px 12px;
-  margin-right: 12px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  color: #fff;
 }
 
 .sub-head .content-list li {
@@ -466,6 +466,8 @@ header .container .nav-bar {
   height: 386px;
   margin-bottom: 24px;
   padding-top: 63px;
+  box-shadow: 20px 20px 30px rgb(0 0 0 / 2%);
+  cursor: pointer;
 }
 
 .container3 .show-text {
@@ -676,11 +678,6 @@ textarea {
 
 .contact-exe .social li a img {
   width: 17.99px;
-}
-
-.container3 {
-  box-shadow: 20px 20px 30px rgb(0 0 0 / 2%);
-  cursor: pointer;
 }
 
 .main-container {
@@ -1228,7 +1225,7 @@ textarea {
     margin-bottom: 24px;
   }
 
-.lang-list2 {
+  .lang-list2 {
     display: flex;
     margin-top: 12px;
     margin-bottom: 12px;
@@ -1275,7 +1272,7 @@ textarea {
     animation-name: slidein;
   }
 
- .btn2 .btn5 {
+  .btn2 .btn5 {
     width: 327px;
     height: 48px;
     bottom: 0;
@@ -1474,13 +1471,10 @@ textarea {
   }
 
   .container3 {
-    box-shadow: 22px 22px 30px rgb(0 0 0 / 2%);
-    cursor: pointer;
-  }
-
-  .container3 {
     padding-top: 63px;
     margin-top: 37px;
+    box-shadow: 22px 22px 30px rgb(0 0 0 / 2%);
+    cursor: pointer;
   }
 
   .works .box1 {
@@ -1688,7 +1682,6 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* gap: 25px; */
   }
 
   .image2 {
