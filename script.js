@@ -38,20 +38,6 @@ headerImg.src = `images/${mainProject.headerImg}`;
 headerDescription.innerHTML = mainProject.headerDescription;
 headerLanguages.innerHTML = language;
 
-const popupProject = {
-  popupTitle: 'Keeping track of hundreds  of components website',
-  popupImg: 'Snapshoot Portfolio.png',
-  popupDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
-};
-
-const popupTitle = document.querySelector('.header2');
-const popupImg = document.querySelector('.image2');
-const popupDescription = document.querySelector('.paragraph2');
-
-popupTitle.innerHTML = popupProject.popupTitle;
-popupImg.src = `images/${popupProject.popupImg}`;
-popupDescription.innerHTML = popupProject.popupDescription;
-
 const workCards = [{
   cardId: 1,
   cardTitle: 'Proessional Art Printing Data',
@@ -113,6 +99,41 @@ See Project
 </div>
 `;
 }
+
+const works = document.querySelector('.works');
+const div = document.createElement('div');
+works.appendChild(div);
+div.innerHTML = `
+<div class="popupcontainer" id="popup">
+<div class="popupcontainer2">
+<div class="popuptitle">
+<h1 class="header2">
+Multi-Post Stories
+</h1>
+<button class="closebtn active" type="button">&times;</button>
+</div>
+<div class="langcontainer">
+<ul class="ulcontainer">
+<li class="langg">html</li>
+<li class="langg">bootstrap</li>
+<li class="langg">Ruby on rails</li>
+</ul>
+</div>
+<div class="popupcontainer3">
+<img src="images/image1.png" class="image2" alt="">
+<div class="description1">
+<p class="paragraph2">
+A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+</p>
+<div class="btncontainer">
+<button class="popbtn" type="button"><a href="https://mikey1-nuel.github.io/Setup-and-Mobile-First/"><img src="images/Enable.png" alt="enable"></a></button>
+<button class="popbtn" type="button"><a href="https://github.com/Mikey1-nuel/Setup-and-Mobile-First"><img src="images/Enable2.png" alt=""></a></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+`;
 
 const popUpWindow = document.querySelector('.popupcontainer');
 const openPopUp = document.querySelector('.openpop');
