@@ -637,6 +637,10 @@ form input {
   align-items: flex-start;
 }
 
+#mail {
+  margin-bottom: 0;
+}
+
 .contact-exe .hr3 {
   height: 2px;
   margin-bottom: 24.98px;
@@ -884,6 +888,7 @@ textarea {
   font-size: 13px;
   font-family: 'poppins', sans-serif;
   color: red;
+  margin-bottom: 39px;
 }
 
 @media (min-width: 675px) {
@@ -1401,7 +1406,7 @@ textarea {
     padding-right: 40px;
     padding-left: 16px;
     outline: none;
-    margin-bottom: 39px;
+    /* margin-bottom: 39px; */
     padding-bottom: 14px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
