@@ -150,3 +150,20 @@ for (let i = 0; i < displayCard.length; i += 1) {
 closeBtn.addEventListener('click', () => {
   popUpWindow.classList.remove('active');
 });
+
+/* Form Validation */
+
+const form = document.getElementById('form');
+form.addEventListener('submit', (event) => {
+  const errorMsg = document.getElementById('error');
+  const email = form.elements[1].value;
+  if (email.toLowerCase() !== email) {
+    errorMsg.style.display = 'block';
+    event.preventDefault();
+    errorMsg.textContent = '(Please enter email in lowercase)';
+  } else {
+    errorMsg.textContent = 'Successful';
+    errorMsg.style.color = 'green';
+    form.submit();
+  }
+});
