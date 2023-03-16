@@ -171,7 +171,7 @@ form.addEventListener('submit', (event) => {
 /* Local Storage */
 
 const formStorage = document.querySelector('#form');
-formStorage.addEventListener('submit', () => {
+formStorage.addEventListener('input', () => {
   const data = {
     name: document.querySelector('#name').value,
     email: document.querySelector('#mail').value,
