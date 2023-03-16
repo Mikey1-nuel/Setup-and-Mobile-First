@@ -167,3 +167,12 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+const formStorage = document.querySelector('#form');
+formStorage.addEventListener('submit', () => {
+  const data = {
+    name: document.querySelector('#name').value,
+    email: document.querySelector('#mail').value,
+    message: document.querySelector('#msg').value,
+  };
+  localStorage.setItem('formStorage', JSON.stringify(data));
+});
