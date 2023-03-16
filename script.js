@@ -167,3 +167,9 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+if (email === email.toLowerCase()) {
+  emailError.textContent = 'Successfull';
+  emailError.style.color = 'green';
+  form.submit();
+}
