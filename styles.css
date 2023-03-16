@@ -880,6 +880,12 @@ textarea {
   justify-content: flex-start;
 }
 
+#error {
+  font-size: 13px;
+  font-family: 'poppins', sans-serif;
+  color: red;
+}
+
 @media (min-width: 675px) {
   .lang ul {
     display: flex;
