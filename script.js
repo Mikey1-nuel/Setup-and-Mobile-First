@@ -155,7 +155,8 @@ closeBtn.addEventListener('click', () => {
 
 const form = document.getElementById('form');
 form.addEventListener('submit', (event) => {
-  const errorMsg = document.getElementById('error');
+  debugger
+  const errrorMsg = document.getElementById('error');
   const email = form.elements[1].value;
   if (email.toLowerCase() !== email) {
     errorMsg.style.display = 'block';
