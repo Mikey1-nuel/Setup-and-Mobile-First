@@ -14,6 +14,12 @@ hamburger.addEventListener('click', () => {
   nav.classList.toggle('open');
 });
 
+document.querySelectorAll('#nav-item').forEach((n) => n
+  .addEventListener('click', () => {
+    hamburger.classList.remove('open');
+    nav.classList.remove('open');
+  }));
+
 /* pop-up window */
 
 const mainProject = {
