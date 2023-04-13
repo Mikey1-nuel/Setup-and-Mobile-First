@@ -24,7 +24,7 @@ document.querySelectorAll('#nav-item').forEach((n) => n
 
 const mainProject = {
   headerTitle: 'Multi-Post Stories',
-  headerImg: 'image1.png',
+  headerImg: 'Screenshot (295).png',
   headerDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   headerLanguages: ['css', 'html', 'bootstrap', 'Ruby'],
   liveLink: 'https://mikey1-nuel.github.io/Setup-and-Mobile-First/',
@@ -126,14 +126,14 @@ Multi-Post Stories
 </ul>
 </div>
 <div class="popupcontainer3">
-<img src="images/image1.png" class="image2" alt="">
+<img src="images/Screenshot (295).png" class="image2" alt="">
 <div class="description1">
 <p class="paragraph2">
 A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
 </p>
 <div class="btncontainer">
-<button class="popbtn" type="button"><a href="https://mikey1-nuel.github.io/Setup-and-Mobile-First/"><img src="images/Enable.png" alt="enable"></a></button>
-<button class="popbtn" type="button"><a href="https://github.com/Mikey1-nuel/Setup-and-Mobile-First"><img src="images/Enable2.png" alt=""></a></button>
+<button class="popbtn" type="button"><a href="https://mikey1-nuel.github.io/Capstone-Project-One.github.io/"><img src="images/Enable.png" alt="enable"></a></button>
+<button class="popbtn" type="button"><a href="https://github.com/Mikey1-nuel/Capstone-Project-One.github.io"><img src="images/Enable2.png" alt=""></a></button>
 </div>
 </div>
 </div>
