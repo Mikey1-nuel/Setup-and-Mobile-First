@@ -376,7 +376,7 @@ header .container .nav-bar {
 }
 
 .works .container2 img {
-  min-width: 80%;
+  max-width: 80%;
   margin-top: 80px;
 }
 
