@@ -20,7 +20,7 @@ document.querySelectorAll('#nav-item').forEach((n) => n
     nav.classList.remove('open');
   }));
 
-/* pop-up window */
+/* card display dynamically */
 
 const mainProject = {
   headerTitle: 'Multi-Post Stories',
@@ -106,6 +106,7 @@ See Project
 `;
 }
 
+/* pop-up window */
 const works = document.querySelector('.works');
 const div = document.createElement('div');
 works.appendChild(div);
