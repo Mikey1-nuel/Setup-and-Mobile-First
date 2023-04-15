@@ -1725,6 +1725,10 @@ textarea {
     gap: 7px;
   }
 
+  .btncontainer button {
+    background-color: transparent;
+  }
+
   .popbtn {
     display: flex;
     justify-content: space-evenly;
